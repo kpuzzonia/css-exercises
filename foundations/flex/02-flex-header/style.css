@@ -1,6 +1,14 @@
+
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* adding this stling to make the container flex */
+  display: flex;
+  align-items: center;
+  /* you don;t have to align the link sections to the left or right because space-between pushes them where they need to go*/
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -14,6 +22,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
