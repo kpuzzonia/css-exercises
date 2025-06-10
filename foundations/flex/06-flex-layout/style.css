@@ -24,3 +24,47 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* this is styling that I have added */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 12px;
+}
+
+
